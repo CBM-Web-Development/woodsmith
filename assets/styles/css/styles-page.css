@@ -1,0 +1,14 @@
+.page-header-container{
+	height:600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:100%;
+	background-position: center center;
+	background-color:gray;
+}
+
+@media(max-width:768px){
+	.page-header-container{
+		height:400px;
+	}
+}

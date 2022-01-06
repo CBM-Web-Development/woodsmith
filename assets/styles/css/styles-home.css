@@ -1,0 +1,19 @@
+.homepage-hero{
+	width:100%;
+	height:600px;
+}
+.hero-container{
+	width:100%;
+	height:600px;
+	background-size: cover;
+}
+
+.homepage-hero{
+	margin-top: -80px !important;
+}
+
+@media(max-width:768px){
+	.hero-container{
+		height:400px;
+		}
+}
