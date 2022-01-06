@@ -107,9 +107,32 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 .entry-content iframe, 
 .entry-content object, 
 .entry-content embed {
-        max-width: 100%;
+		max-width: 100%;
 }
 
+.has-gutters{
+	margin-left:1.5rem !important;
+	margin-right:1.5rem !important;
+}
+
+.wp-block-cover a{
+	color:inherit !important;
+	text-decoration: none;
+}
+
+.wp-block-cover a:hover{
+	color:inherit;
+}
+
+.wp-block-group img{
+	height: auto !important;
+}
+
+@media(max-width:786px){
+	.wp-block-column{
+		margin-bottom:1.5rem;
+	}
+}
 
 /* Primary Navigation Styles */
 .bg-dark.primary-navbar{
