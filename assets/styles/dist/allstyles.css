@@ -147,6 +147,10 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 		margin-right:0px !important;
 	}
 	
+	.navbar-brand{
+		margin-right:0px !important;
+	}
+	
 	.navbar-primary-left,.navbar-primary-right{
 		flex:1;
 	}
