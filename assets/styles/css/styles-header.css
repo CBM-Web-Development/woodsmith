@@ -11,6 +11,10 @@
 		max-width: 150px;
 		margin-right:0px !important;
 	}
+	
+	.navbar-primary-left,.navbar-primary-right{
+		flex:1;
+	}
 }
 
 @media(max-width:786px){
