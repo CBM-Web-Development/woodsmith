@@ -6,11 +6,11 @@ name: Publish Theme to Website FTP
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches: [ main ]
 
   pull_request: 
     types: [merged]
-    branches: [master]
+    branches: [main]
     
 
   # Allows you to run this workflow manually from the Actions tab
@@ -33,7 +33,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
         server: ns8139.hostgator.com
-        username: cmeehan
+        username: cmeehan_git@utterfare.com
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: /woodsmithhhi.com/wp-content/themes/woodsmith/
     
