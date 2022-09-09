@@ -2,7 +2,7 @@
 define('WOODSMITH_URI', get_template_directory_uri());
 define('WOODSMITH_PATH', get_template_directory());
 define('WOODSMITH_TEXTDOMAIN', 'woodsmith');
-define('WOODSMITH_VERSION', '2.0.0');
+define('WOODSMITH_VERSION', '2.0.1');
 
 // Include required functions --REQUIRED
 include WOODSMITH_PATH . '/includes/functions/functions-assets.php';
