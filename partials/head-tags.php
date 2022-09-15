@@ -1,4 +1,3 @@
-element. Don’t add more than one Google tag to each page.
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SV4L0HQWDL"></script>
 <script>
